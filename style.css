@@ -1,0 +1,118 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color: #f9b86b;
+}
+
+
+
+.imgM {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.imgM figure{
+    width: 30%;
+}
+.imgM figure img{
+    width: 100%;
+}
+body {
+    font: normal 14px/100% "Andale Mono", AndaleMono, monospace;
+    color: rgba(253, 245, 245, 0.993);
+    padding: 50px;
+    background-color:#18181b;
+  }
+  
+  .dropdown {
+    top:50%;
+    transform: translateY(-50%);
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+  }
+  
+  .dropdown dd,
+  .dropdown dt {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .dropdown ul {
+    margin: -1px 0 0 0;
+  }
+  
+  .dropdown dd {
+    position: relative;
+  }
+  
+  .dropdown a,
+  .dropdown a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    outline: none;
+    font-size: 12px;
+  }
+  
+  .dropdown dt a {
+    display: block;
+    padding: 8px 20px 5px 10px;
+    min-height: 25px;
+    line-height: 24px;
+    overflow: hidden;
+    border: 0;
+    width: 272px;
+  }
+  
+  .dropdown dt a span,
+  .multiSel span {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 3px 2px 0;
+  }
+  
+  .dropdown dd ul {
+    background-color: #000000;
+    border: 0;
+    color: rgb(255, 253, 253);
+    display: none;
+    left: 0px;
+    padding: 2px 15px 2px 5px;
+    position: absolute;
+    top: 2px;
+    width: 270px;
+    list-style: none;
+    height: 100px;
+    overflow: auto;
+  }
+  
+  .dropdown span.value {
+    display: none;
+  }
+  
+  .dropdown dd ul li a {
+    padding: 5px;
+    display: block;
+  }
+  
+  .dropdown dd ul li a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  button {
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    border: 0;
+    padding: 10px 0;
+    margin: 5px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.678);
+    font-weight: bold;
+  }
